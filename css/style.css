@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+body {
+    background: #396afc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar START*/
+
+#home .container-fluid{
+    background-color: #fff;
+    
+}
+
+.container-fluid {
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.nameInfo {
+    /* width: 50px;
+    float: left;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 8px; */
+
+    width: 50px;
+    float: left;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.nameInfo h1 {
+    /* border-radius: 100%;
+    padding: 5px 13px;
+    font-size: 28px;
+    font-weight: bold;
+    background: #396afc;
+    color: #fff;
+    font-family: 'Roboto Slab', serif; */
+    border-radius: 50%;
+    padding: 8px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background: #396afc;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nameInfo h5 {
+    /* margin-left: 4px;
+    margin-top: 11px;
+    font-size: 19px;
+    // color: #6e6e63; 
+    color: blue;
+    font-family: 'Roboto Slab', serif; */
+    margin-left: 5px;
+    margin-top: 14px;
+    font-size: 20px;
+    /* color: #6e6e63; */
+    color: #396afc;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link {
+    margin: 0 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: blue !important;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+
+/* Navigation Bar END*/
+
+/* Profile START */
+
+.profileContainer {
+    position: relative;
+    border-radius: 0;
+    /* height: 30rem; */
+    height: 35rem;
+    margin-top: -8px;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);
+
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    /* justify-content: center; */
+    /* margin-top: 8rem; */
+    /* top: 13rem; */
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    /* background: blue; */
+}
+
+.intro {
+    margin-left: 2rem;
+}
+
+#myintro {
+    width: 31rem;
+}
+
+
+/* dp */
+#profile .dp {
+
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #e0eafc;
+    background-color: bisque;
+    /* border: 2px solid black; */
+    position: relative;
+
+
+}
+
+#profile .dp img {
+    position: absolute;
+    /* height: 100%; */
+    /* left: -15px; */
+    /* width: 106%; */
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+
+#profile .radius1 {
+    position: absolute;
+    height: 272px;
+    width: 272px;
+    border-radius: 50%;
+    margin: -8px 0px 0px -9px;
+    /* background-color: azure; */
+    box-shadow: 0 0 5px rgb(122 122 180);
+}
+
+/* Intro */
+
+.intro #myName {
+    font-size: 20px;
+    color: #343a40;
+    margin-bottom: 20px;
+    margin-left: -2px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.intro #myName h1 {
+    font-size: 2.2rem !important;
+}
+
+#myintro p {
+    font-size: 15px;
+    color: #a99a9a;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* Follow Icon */
+
+.icon {
+    display: inline-block;
+}
+
+.icon img {
+    width: 17px;
+    margin: 0 6px;
+}
+
+/* Intro Button */
+
+#introbtn {
+    margin-top: 20px;
+}
+
+.intro #introbtn button {
+    border-radius: 50px;
+    padding: 8px 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.intro #introbtn #btn1 {
+    margin-right: 12px;
+    border: 2px solid #396afc;
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+    background: transparent;
+    transition: .5s;
+}
+
+.intro #introbtn #btn1:hover {
+    background-color: #396afc;
+    color: #fff;
+}
+
+.intro #introbtn #btn2 {
+    font-size: 13px;
+    color: gray;
+    background: transparent;
+    border: 2px solid #1ab394;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.intro #introbtn #btn2:hover {
+    background-color: #1ab394;
+    color: #fff;
+}
+
+/* Profile END */
+
+/* SKILL STart */
+
+#skills .container-fluid{
+    background-color: #f6f6f6 !important;
+    /* background-color: green !important; */
+    padding: 2rem 0rem;
+}
+
+.skill {
+    border-radius: 0;
+    /* background-color: gainsboro !important; */
+    height: 25rem;
+}
+
+.skill h1 {
+    color: #00a383;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -12px;
+}
+
+.skillBar {
+    box-sizing: border-box;
+    /* width: 100%; */
+    margin-top: 25px;
+
+}
+
+.skillBar p {
+    color: rgb(39, 35, 35);
+    /* text-transform: uppercase; */
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.skillBar p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -25px;
+    color: gray;
+}
+
+.myskill {
+    /* background: #e0dcdc; */
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.skillLevel {
+    padding: 0px;
+    border-radius: 10px;
+    height: 4px;
+    margin-top: -10px;
+}
+
+.skillLevelLeft {
+    width: 155%;
+}
+
+.skillLevelRight {
+    width: 250%;
+}
+
+.float-end {
+    margin-right: 16rem !important;
+}
+
+.float-start {
+    margin-left: 5rem !important;
+}
+
+/* SKILL END */
+
+
+/* About START */
+
+#aboutMe .container-fluid{
+    /* background-color: #fafafa !important;
+    /* background-color: brown !important;
+    padding: 2rem 0rem;
+    clip-path: polygon(48% 39%, 100% 0, 100% 100%, 0 99%, 0 0); */
+
+    background-color: #fafafa !important;
+    /* background-color: brown !important; */
+    padding: 8rem 0rem;
+    /* padding-top: 0rem; */
+        border-radius: 0;
+        margin-top: -11rem;
+        clip-path: polygon(50% 38%, 103% 0, 100% 100%, 0 100%, 0 0);
+    
+    
+    
+
+
+}
+
+.about {
+    border-radius: 0;
+    /* background-color: rgb(177, 201, 178) !important; */
+    /* height: 18rem; */
+
+    
+    height: 23rem;
+
+}
+
+.about h1 {
+    color: #0083B0;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutLeft {
+    float: left;
+    width: 30%;
+}
+
+.aboutLeft p {
+    font-size: 15px;
+    color: #343a40;
+    /* margin-bottom: 20px;
+    margin-left: -2px; */
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    font-family:  sans-serif;
+}
+
+.aboutLeft p span {
+    font-weight: 900;
+}
+
+.aboutRight {
+    float: right;
+}
+
+.aboutRight p {
+    background-color: #84d17a;
+    color: white;
+    width: fit-content;
+}
+
+.aboutRight p span {
+    margin-left: 11rem;
+    background-color: white;
+    color: #252525;
+    width: fit-content;
+}
+
+.aboutRight1 {
+    float: left;
+}
+
+.aboutRight2 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.2rem;
+    margin-left: 3rem;
+}
+
+/* About END */
+
+/* Contact Start */
+
+#contactUs .container-fluid {
+    border-radius: 0 0rem 2rem 2rem;
+    /* background-color: #5c5c5c !important; */
+    background-color: #827f7f !important;
+    position: relative;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.contact{
+    height: 20rem;
+
+}
+
+#contactUs .container{
+    /* background-color: #4949c3 !important; */
+    background-color: #827f7f !important;
+
+}
+
+.contact h1 {
+    text-align: center;
+    color: #c1e678;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #2525257a !important; */
+}
+.contact p{
+    font-size: 2rem;
+    /* text-align: left; */
+    font-weight: bold;
+    line-height: 2rem;
+}
+.contact i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.contact i span{
+    font-size: 21px;
+    margin-left: 15px;
+}
+.contact i span a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
