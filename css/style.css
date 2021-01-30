@@ -49,34 +49,21 @@ html {
 }
 
 .nameInfo h1 {
-    /* border-radius: 100%;
-    padding: 5px 13px;
-    font-size: 28px;
-    font-weight: bold;
-    background: #396afc;
-    color: #fff;
-    font-family: 'Roboto Slab', serif; */
     border-radius: 50%;
     padding: 8px 15px;
     font-size: 30px;
     font-weight: bold;
-    background: #396afc;
+    background: blue;
     color: #fff;
     font-family: 'Roboto Slab', serif;
 }
 
 .nameInfo h5 {
-    /* margin-left: 4px;
-    margin-top: 11px;
-    font-size: 19px;
-    // color: #6e6e63; 
-    color: blue;
-    font-family: 'Roboto Slab', serif; */
     margin-left: 5px;
     margin-top: 14px;
     font-size: 20px;
     /* color: #6e6e63; */
-    color: #396afc;
+    color: blue;
     font-family: 'Roboto Slab', serif;
 }
 
